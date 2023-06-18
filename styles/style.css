@@ -390,7 +390,7 @@
     margin: 0 0 32px;
 }
 
-.about__paragraph::last-child {
+.about__paragraph:last-child {
     margin-bottom: 0;
 }
 
