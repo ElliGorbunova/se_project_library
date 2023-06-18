@@ -20,19 +20,19 @@
         />
         <ul class="nav__links">
           <li>
-            <a class="nav__link">Staff picks</a>
+            <a class="nav__link" href="#Staff-picks">Staff picks</a>
           </li>
           <li>
-            <a class="nav__link">Events</a>
+            <a class="nav__link" href="#Events-upcoming">Events</a>
           </li>
           <li>
-            <a class="nav__link">Become a member</a>
+            <a class="nav__link" href="#Membership">Become a member</a>
           </li>
           <li>
-            <a class="nav__link">About</a>
+            <a class="nav__link" href="#About">About</a>
           </li>
           <li>
-            <a class="nav__link">Contacts</a>
+            <a class="nav__link" href="#Social-media">Contacts</a>
           </li>
         </ul>
       </nav>
@@ -48,13 +48,13 @@
         class="header__image"
       />
       <div class="header__footer">
-        <a class="header__link">About the library &darr;</a>
+        <a class="header__link" href="#About">About the library</a>
         <p class="header__address">200 Success Avenue, The Town of Practicum</p>
       </div>
     </header>
 
     <main class="content">
-      <section class="events">
+      <section class="events" id="Events-upcoming">
        <div class="events__content">
           <h2 class="events__heading">Upcoming events:</h2>
           <h3 class="events__title">
@@ -83,7 +83,7 @@
             prove that this hasn't been the case since at least the 18th
             century.
           </p>
-          <a href="#" class="events__more">More events &rarr;</a>
+          <a href="#" class="events__more">More events</a>
         </div>
         <div class="events__cover">
           <img 
@@ -128,13 +128,10 @@
         </div>
       </section>
 
-      <section class="staff">
-        <!-- --------------------------------------------------------------- -->
-        <!--        Don't uncomment until the final project stage            -->
-        <!-- --------------------------------------------------------------- -->
-        <!--<h2 class="staff__title">Staff picks</h2>
+      <section class="staf" id="Staff-picks">
+        <h2 class="staff__title">Staff picks</h2>
         <p class="staff__subtitle">That our readers love</p>
-        <ul>
+        <ul class="staff__cards">
           <li class="card">
             <div class="card__content">
               <h3 class="card__title">Introduction to Algorithms</h3>
@@ -200,14 +197,11 @@
               <p class="card__footer">Steve McConnell</p>
             </div>
           </li>
-        </ul>-->
+        </ul>
       </section>
 
-      <section class="membership">
-        <!-- --------------------------------------------------------------- -->
-        <!--         Don't uncomment until the final project stage           -->
-        <!-- --------------------------------------------------------------- -->
-        <!--<h2 class="membership__title">Becoming a library member is easy!</h2>
+      <section class="membership" id="Membership">
+      <h2 class="membership__title">Becoming a library member is easy!</h2>
         <ul class="membership__steps">
           <li class="step">
             <h3 class="step__title">
@@ -259,14 +253,11 @@
               Enjoy all the awesome benefits of membership!
             </p>
           </li>
-        </ul>-->
+        </ul>
       </section>
 
-      <section class="about">
-        <!-- --------------------------------------------------------------- -->
-        <!--          Don't uncomment until the final project stage          -->
-        <!-- --------------------------------------------------------------- -->
-        <!--<h2 class="about__title">About the library</h2>
+      <section class="about" id="About">
+        <h2 class="about__title">About the library</h2>
         <div class="about__content">
           <p class="about__paragraph">
             Libraries are essential establishments in practically every city,
@@ -286,13 +277,46 @@
             the American Geophysical Union.
           </p>
         </div>
-        <div class="about__circle"></div> -->
+        <div class="about__circle"></div>
       </section>
     </main>
     <footer class="footer">
-      <!-- ----------------------------------------------------------------- -->
-      <!--          Don't uncomment until the final project stage            -->
-      <!-- ----------------------------------------------------------------- -->
+      <div class="footer__columns" id="Social-media">
+        <div class="footer__column">
+            <img alt="Logo" src="./images/logo.png" class="footer__logo">
+        </div>
+        <div class="footer__column footer__column_content_hours">
+            <h3 class="footer__column-heading">Hours</h3>
+            <ul class="footer__list">
+                <li class="footer__list-item">
+                    Weekdays: 9am - 8pm
+                </li>
+                <li class="footer__list-item">
+                    Weekends: 10am - 6pm
+                </li>
+            </ul>
+        </div>
+        <div class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Social media</h3>
+            <ul class="footer__list">
+                <li class="footer__list-item">
+                    <p class="footer__column-link">
+                    <a class="footer__column-link" href="#"><img src="./images/facebook_white.svg" alt="Facebook icon" class="footer__social-icon"> Facebook</a>
+                    </p>
+                </li>
+                <li class="footer__list-item">
+                    <p class="footer__column-link">
+                    <a class="footer__column-link" href="#"><img src="./images/instagram_white.svg" alt="Instagram icon" class="footer__social-icon"> Instagram</a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p>
+            © 2023 Elizaveta Gorbunova.
+        </p>
+      </div>
     </footer>
   </div>
   </body>
