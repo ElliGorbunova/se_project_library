@@ -2,7 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: auto;
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -45,8 +45,7 @@
 }
 
 .nav__link:hover {
-    color: #1f69c9;
-    text-decoration: none;
+  color: #1f69c9;
 }
 
 .header__title {
@@ -89,8 +88,7 @@
 }
 
 .header__link:hover {
-    color: #1f69c9;
-    text-decoration: none;
+  color: #1f69c9;
 }
 
 .header__address {
@@ -169,8 +167,7 @@
 }
 
 .events__more:hover {
-    color: #1f69c9;
-    text-decoration: none;
+  color: #1f69c9;
 }
 
 .events__cover {
@@ -272,7 +269,7 @@
     justify-content: space-between;
     gap: 40px;
     max-width: 760px;
-    margin: 68px auto;
+    margin: 68px auto 0;
     list-style-type: none;
     padding: 0;
   }
@@ -393,7 +390,7 @@
     margin: 0 0 32px;
   }
 
-  .about__paragraph:nth-of-type(3n) {
+  .about__paragraph::last-child {
     margin-bottom: 0;
   }
   
@@ -468,16 +465,16 @@
 
   .footer__column-link:hover {
     color: #c1c1c1;
-    text-decoration: none;
   }
   
   .footer__social-icon {
     width: 16px;
     height: 16px;
+    margin-right: 5px;
   }
   
   .footer__copyright {
     font-size: 16px;
     line-height: 20px;
-    margin-top: 108px ;
+    margin: 108px 0;
   }
