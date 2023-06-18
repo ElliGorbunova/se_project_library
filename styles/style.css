@@ -434,8 +434,8 @@
   .footer__logo {
     /* The dimensions in the project description after reneming seens not applicable
     to the old one logo i have in downloaded folder, so it's look ugly btw */
-    width: 80px;
-    height: 57px;
+    width: 57px;
+    height: 80px;
   }
   
   .footer__list {
